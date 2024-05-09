@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --darkmode--main--bg: #031525;
+  --darkmode--container--prim--bg: #162C46;
+  --darkmode--container--sec--bg: #0D2136;
+  --darkmode--prim--textcolor: #D3E3FD;
+  --darkmode--sec--textcolor: #96A7BF;
+  --darkmode--prim--btn--bg: #7CACF8;
+  --darkmode--prim--btn--text: #162C46;
+  --darkmode--positvie--stimuli--green: #6DD58C;
+  --darkmode--negative--stimuli--textcolor: #EC928E;
+  --darkmode--negative--stimuli--container: #1E263A;
+
+  --lightmode--main--bg: #FAFBFF;
+  --lightmode--container--prim--bg: #F5F8FD;
+  --lightmode--container--sec--bg: #FFFFFF;
+  --lightmode--prim--textcolor: #041E49;
+  --lightmode--sec--textcolor: #4F617F;
+  --lightmode--prim--btn--bg: #0B57D0;
+  --lightmode--prim--btn--text: #F5F8FD;
+  --lightmode--positvie--stimuli--green: #0F5223;
+  --lightmode--negative--stimuli--textcolor: #8C1D18;
+  --lightmode--negative--stimuli--container: #F9DEDC;
+}
+
+/* buttons default styles */ 
+
+.btn__darkmode {
+  background-color: var(--darkmode--prim--btn--bg);
+  color: var(--darkmode--prim--btn--text);
+}
+
+.btn__darkmode:hover {
+  background-color: var(--lightmode--container--prim--bg);
+}
+
+.btn__lightmode {
+  background-color: var(--lightmode--prim--btn--bg);
+  color: var(--lightmode--prim--btn--text);
+}
+
+.btn__lightmode:hover {
+  background-color: var(--lightmode--prim--btn--bg);
+}
+
+/* .btn inte bestämt ännu */
+.btn {
+  border-radius: 1rem;
+  padding: 4px 8px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: .7;
+}
