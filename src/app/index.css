@@ -34,6 +34,12 @@ body {
   background-color: var(--darkmode--main--bg);
 }
 
+/* globala css classer */
+
+.flex {
+  display: flex;
+}
+
 /* buttons default styles */ 
 
 .btn__darkmode {
@@ -56,11 +62,5 @@ body {
 
 /* .btn inte bestämt ännu */
 .btn {
-  border-radius: 1rem;
-  padding: 4px 8px;
-}
-
-.btn:hover {
   cursor: pointer;
-  opacity: .7;
 }
