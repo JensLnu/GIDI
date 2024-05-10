@@ -28,6 +28,12 @@
   --lightmode--negative--stimuli--container: #F9DEDC;
 }
 
+/* body */
+
+body {
+  background-color: var(--darkmode--main--bg);
+}
+
 /* buttons default styles */ 
 
 .btn__darkmode {
